@@ -1,4 +1,4 @@
-# Low Level System Design Using GoLang
+# Low Level System Design Using GoLang - LLD is Language Agnostic
 
 ## Behavioral
 Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor
