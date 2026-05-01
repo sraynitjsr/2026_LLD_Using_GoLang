@@ -3,7 +3,9 @@ package creational
 import "fmt"
 
 func StartCreational() {
-	fmt.Println("Creational Design Patterns\n")
+	fmt.Println("Creational Design Patterns")
+	fmt.Println()
 
-	Singleton()
+	fmt.Println("Singleton Design Pattern => Single Instance, Thread-Safe, Lazy-Initialization")
+	MySingleton()
 }
