@@ -13,10 +13,10 @@ func main() {
 	fmt.Println("╚═══════════════════════════════════════════════════════════════╝")
 
 	fmt.Println("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-	behavioral.StartBehavioral()
+	creational.StartCreational()
 
 	fmt.Println("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-	creational.StartCreational()
+	behavioral.StartBehavioral()
 
 	fmt.Println("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 	structural.StartStructural()
