@@ -25,5 +25,17 @@ func StartCreational() {
 	fmt.Println("    Description: Create Families Of Related Objects")
 	fmt.Println()
 	MyAbstractFactory()
+
+	fmt.Println()
+	fmt.Println(blue + "[4] BUILDER DESIGN PATTERN" + reset)
+	fmt.Println("    Description: Construct Complex Objects Step By Step")
+	fmt.Println()
+	MyBuilder()
+
+	fmt.Println()
+	fmt.Println(blue + "[5] PROTOTYPE DESIGN PATTERN" + reset)
+	fmt.Println("    Description: Clone Objects Without Coupling To Classes")
+	fmt.Println()
+	MyPrototype()
 	fmt.Println()
 }
