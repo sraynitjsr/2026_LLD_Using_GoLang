@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"sraynitjsr/behavioral"
 	"sraynitjsr/creational"
+	lldinterview "sraynitjsr/lld_interview"
 	"sraynitjsr/structural"
 )
 
@@ -20,4 +21,7 @@ func main() {
 
 	fmt.Println("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 	structural.StartStructural()
+
+	fmt.Println("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+	lldinterview.ShortenURL()
 }
