@@ -7,4 +7,11 @@ func StartBehavioral() {
 	reset := "\033[0m"
 
 	fmt.Println(cyan + "Behavioral Design Patterns" + reset)
+	fmt.Println()
+
+	fmt.Println(cyan + "[1] CHAIN OF RESPONSIBILITY DESIGN PATTERN" + reset)
+	fmt.Println("    Description: Pass Request Along Handler Chain")
+	fmt.Println()
+	MyChainOfResponsibility()
+	fmt.Println()
 }
