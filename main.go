@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sraynitjsr/behavioral"
 	"sraynitjsr/creational"
-	lldinterview "sraynitjsr/lld_interview"
+	lld "sraynitjsr/low_level_design"
 	"sraynitjsr/structural"
 )
 
@@ -23,5 +23,5 @@ func main() {
 	structural.StartStructural()
 
 	fmt.Println("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-	lldinterview.ShortenURL()
+	lld.LLDUsingGoLang()
 }
